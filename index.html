@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+    </style>
+    <title>To do list</title>
+  </head>
+  <body>
+    <div class="h-screen bg-[#181824]">
+      <div
+        class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-56"
+      ></div>
+      <div
+        class="relative z-50 inline-block bottom-32 mx-auto w-1/2 gap-6 flex justify-evenly items-center"
+      >
+        <h1 class="text-4xl text-white">T O D O</h1>
+        <img src="./images/icon-sun.svg" alt="sole" id="sole" />
+      </div>
+      <div class="mx-auto w-1/2">
+        <input
+          type="text"
+          name=""
+          id="input"
+          class="bg-[#25273C] outline-none w-full p-2 caret-white text-white" placeholder="Create a new todo.."
+        />
+      </div>
+
+      <!-- ? todos creati -->
+      <div class="mx-auto w-1/2 my-12" id="todos">
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
